@@ -1,6 +1,6 @@
 <h1>Edit Director #<%=@director.id %></h1>
 
-<form action="http://localhost:3000/update_row/<%=@director.id %>">
+<form action="http://localhost:3000/directors/update_row/<%=@director.id %>">
   <div>
     <label for="director_name">Name:</label>
     <input type="string" name="the_name" value="<%= @director.name %>">
